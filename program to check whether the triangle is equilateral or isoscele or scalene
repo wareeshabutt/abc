@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("input first number");
+scanf("%d",&a);
+printf("input second number");
+scanf("%d",&b);
+printf("input third number");
+scanf("%d",&c);
+if(a==b&&a==c)
+printf("It is an equilateral triangle");
+else if(a==b||a==c||b==c)
+printf("It is an isosceles triangle");
+else
+printf("Triangle is scalene");
+return 0;
+}
