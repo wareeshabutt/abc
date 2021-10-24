@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+float a,b;
+printf("input first number");
+scanf("%f",&a);
+printf("input second number");
+scanf("%f",&b);
+float sum=a+b;
+printf("sum=%0.2f",sum);
+return 0;
+}
