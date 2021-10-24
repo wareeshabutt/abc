@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+char ch;
+printf("enter a character");
+scanf("%c",&ch);
+if(ch>='A'&&ch<='Z')
+printf("It is an uppercase alphabet,%c",ch);
+else
+printf("It is a lowercase alphabet,%c",ch);
+return 0;
+}
